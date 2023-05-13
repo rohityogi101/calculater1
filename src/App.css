@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+.App {
+  background-color: #1e1e1e;
+  font-family: 'Inter', sans-serif;
+  /* text-align: center; */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+  /* align-items: center; */
+  font-size: calc(10px + 2vmin);
+  font-weight: 00;
+  color: white;
+}
+
+input {
+  padding-left: 23px;
+  width: 290px;
+  height: 50px;
+  background: transparent;
+  color: white;
+  border: 2px solid #ffffff;
+}
+
+input::placeholder{
+  color: white;
+}
+
+button {
+  width: 61px;
+  height: 61px;
+  background: #ffffff;
+  margin-top: 30px;
+  margin-right: 20px;
+  border: none;
+}
+
+#error{
+  color: #E33737;
+}
+#success{
+  color: #47F558;
+}
